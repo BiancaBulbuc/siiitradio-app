@@ -1,0 +1,37 @@
+.navigation-menu {
+  width: 20%;
+  
+  background-color: #88888840;
+}
+
+.navbar-expand-md .navbar-nav {
+  flex-direction: column;
+}
+
+.side-menu {
+  width: 200px;
+  position: fixed;
+  z-index: 99999999;
+  
+}
+
+.menu-item {
+  color: black;
+}
+
+.menu-item:hover {
+  color: turquoise;
+}
+
+img {
+  width: 160px;  
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+

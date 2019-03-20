@@ -1,0 +1,232 @@
+{
+  "radios": [
+    {
+      "id": 1,
+      "name": "90's decade",
+      "description": "Popular music in the 1990s saw the continuation of teen pop and dance-pop trends which had emerged in the 1970s and 1980s. Furthermore, hip hop grew and continued to be highly successful in the decade, with the continuation of the genre's golden age.",
+      "image":"https://www.sheinthecle.com/wp-content/uploads/2017/08/90s.png",
+      "streamURL": "http://listen.livestreamingservice.com/181-star90s_128k.mp3",
+      "mediaType": "audio/mp3",
+      "location": "USA",
+      "category":"music"
+    },
+    {
+      "id": 2,
+      "name": "Old School HipHop/RnB",
+      "description": " ",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgoKOq_rKvqxsjwUBNhgaywpGR5uSrtk309BFcwNGp8dFJYnoWA",
+      "streamURL": "http://listen.livestreamingservice.com/181-oldschool_128k.mp3",
+      "mediaType": "audio/mp3",
+      "location": "Spain",
+      "category": "music"
+    },
+    {
+      "id": 3,
+      "name": "The Buzz (Alt. Rock)",
+      "description": " ",
+      "streamURL": "http://listen.livestreamingservice.com/181-buzz_128k.mp3",
+      "image":"https://webradiolive.ro/wp-content/uploads/2018/09/header-player.png",
+      "mediaType":"audio/mp3",
+      "location": "Austria",
+      "category":"music"
+    },
+    {
+      "id": 4,
+      "name": "Real Country",
+      "description": " ",
+      "streamURL": "http://listen.livestreamingservice.com/181-realcountry_128k.mp3",
+      "image":"http://www.country.dj/pictures/country_music_1.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Romania",
+      "category": "music"
+    },
+    {
+      "id": 5,
+      "name": "Soul",
+      "description": " ",
+      "streamURL": "http://listen.livestreamingservice.com/181-soul_128k.mp3",
+      "image":"https://www.caffemoak.com/music/wp-content/uploads/2015/10/soul-music.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Germany",
+      "category": "music"
+    },
+    {
+      "id": 6,
+      "name": "Energy 98",
+      "description": " ",
+      "streamURL": "http://listen.livestreamingservice.com/181-energy98_128k.mp3",
+      "image":"https://bestradio.fm/uploads/posts/2013-02/1361556541_radio-energy-98-online-besplatno-slushat-fm-usa.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Romania",
+      "category":"music"
+    },
+    {
+      "id": 7,
+      "name": "Classical Jazz",
+      "description": " ",
+      "streamURL":"http://listen.livestreamingservice.com/181-classicaljazz_128k.mp3",
+      "image":"https://www.caffemoak.com/music/wp-content/uploads/2015/10/soul-music.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Swiss",
+      "category":"music"
+    },
+    {
+      "id": 8,
+      "name": "Pop Music",
+      "description": " ",
+      "streamURL":"http://listen.livestreamingservice.com/181-power_128k.mp3",
+      "image":"https://2r62j11x4zsy3ytak02nzvbk24y-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/pop-gif-2.gif",
+      "mediaType": "audio/mp3",
+      "location": "Swiss",
+      "category": "music"
+    },
+    {
+      "id": 9,
+      "name": "Uk Top 40",
+      "description": " ",
+      "streamURL":"http://listen.livestreamingservice.com/181-uktop40_128k.mp3",
+      "image":"https://m.media-amazon.com/images/I/81IWG8fjdbL._SS500_.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Uk",
+      "category": "music"
+    },
+    {
+      "id": 10,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 11,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 12,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 13,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": "Romania",
+      "category": "news"
+    },
+    {
+      "id": 14,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 15,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 16,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": "Romania",
+      "category": "news"
+    },
+    {
+      "id": 17,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": "Romania",
+      "category": "news"
+    },
+    {
+      "id": 18,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 19,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    },
+    {
+      "id": 20,
+      "name": " ",
+      "description": " ",
+      "streamURL":" ",
+      "image":" ",
+      "mediaType": " ",
+      "location": " ",
+      "category": "news"
+    }
+  ],
+
+   "members": [
+    {
+      "id":1,
+      "name": "Maria Murea",
+      "image": "https://imagizer.imageshack.com/img922/7007/iy9MaU.png",
+      "description": "Homepage Creator! She did it all about the first impression. All about the homepage, the presentation and the data panel to acces it all and enter the whole application",
+      "facebook": "https://www.facebook.com/maria.nan.77",
+      "github": "https://github.com/MariaMurea"
+    },
+    {
+      "id":2,
+      "name": "Radu Stoian",
+      "image": "https://imagizer.imageshack.com/img924/3183/2BHPkM.png",
+      "description": "He is the brains behind the big magic LOG IN / SIGN UP setup, he had it all figure out with jpy and sweat, trust him with your personal dates, he made it all secure... ",
+      "facebook": "https://www.facebook.com/radustoian93",
+      "github": "https://github.com/ZoresV"
+    },
+    {
+      "id":3,
+      "name": "Bianca Bulbuc",
+      "image": "https://imagizer.imageshack.com/img921/687/9vdECj.png",
+      "description": "Since I made this presentation, well, I will leave my collegues to add some description live. But if they don't do it, you should know, I made the app walk you through music, news and all sorts of radios, I also added in the data base...hope it looks pretty too...",
+      "facebook": "https://www.facebook.com/radustoian93",
+      "github": "https://github.com/BiancaBulbuc"
+    }
+
+  ]
+}

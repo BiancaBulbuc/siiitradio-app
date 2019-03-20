@@ -1,0 +1,86 @@
+.main-container {
+    height: auto;
+    width: 380px;
+    margin: 0px;
+    padding-top: 80px;
+}
+
+.main-container h3 {
+    background-color: turquoise;
+}
+
+.cards-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.radio-card {
+   width: 400px;
+   height: 500px;
+   margin: 10px;
+   display: flex;
+   flex-direction: row;
+
+}
+
+.radio-image {
+    width: 200px;
+    height: 200px;
+}
+
+.card-footer {
+    background-color: coral;
+    /* width: 50%; */
+}
+
+
+@media screen and (min-width: 770px) {
+    .main-container {
+        height: auto;
+        width: 1400px;
+        margin: 0px;
+        padding-top: 80px;
+    }
+    
+    .main-container h3 {
+        background-color: turquoise;
+    }
+    
+    .cards-layout {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    
+    .radio-card {
+       width: 400px;
+       height: 500px;
+       margin: 10px;
+       display: flex;
+       flex-direction: row;
+    
+    }
+    
+    .radio-image {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .card-footer {
+        background-color: coral;
+        /* width: 50%; */
+    }
+}
