@@ -72,16 +72,12 @@ export class LocalRadio extends React.Component {
                         </Card.Body>
                         
                         <Card.Footer className="card-footer">
-                        <Link to= {"/views/radiopage/" + radio.id }> listen here {radio.id}
+                        <Link to= {"/views/radiopage/" + radio.id }> Listen here
                         </Link>
                         </Card.Footer>
                     </Card>
                 </CardDeck>)}
                 </div>
-                <audio controls autoPlay=""><source src="http://edge126.rdsnet.ro:84/profm/profm.mp3" type="audio/mp3"/> </audio>
-                <audio controls autoPlay=""><source src="http://listen.livestreamingservice.com/181-80scountry_128k.mp3" type="audio/mp3"/></audio>
-            
-            
             </div>
         );
     }

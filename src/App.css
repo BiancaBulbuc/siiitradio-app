@@ -1,90 +1,36 @@
 .App {
-    width: 320px;
-    height: 100%;
-    /* position: absolute; */
+    width: 350px;
     top: 0;
     bottom: 0;
     left: 0px;
     right: 0px;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    /* flex: 1 0 auto; */
+    /* background-color: rgb(205, 248, 209); */
 }
 
 .app-main-container {
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-content: flex-start;
+    /* border: 1px solid rgb(57, 20, 221); */
 }
 
-.menu {
-    width: 20%;
-}
+
 
 .page-views {
-    min-height: 100%;
-  /* equal to footer height */
-    /* margin-bottom: calc(100%-142px);  */
-    margin-left: 20%;
     width: 100%;
     display: flex;
     flex-direction: column;
-  
 }
 
-.footer-container {
-    margin-left: 20%;
-    height: 130px;
-    background-color: orange;
-    align-self: flex-end;
+a {
+    color: #40e0d0;
 }
 
 
-@media screen and (min-width: 770px){
-.App {
-    width: 1600px;
-    height: 100%;
-    /* position: absolute; */
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    right: 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #fff;
-    /* flex: 1 0 auto; */
-}
-
-.app-main-container {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-}
-
-.menu {
-    width: 20%;
-}
-
-.page-views {
-    min-height: 100%;
-  /* equal to footer height */
-	/* margin-bottom: calc(100%-142px);  */
-    width: 100%;
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
-    background-color: #999;
-  
-}
-
-.footer-container {
-    margin-left: 20%;
-    height: 142px;
-    background-color: orange;
-    align-self: flex-end;
-}
+@media screen and (min-width: 360px){
+ 
+ 
 }

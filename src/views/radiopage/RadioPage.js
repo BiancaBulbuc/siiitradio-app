@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { builtinModules } from 'module';
+import './RadioPage.css';
 // import {CardDeck, Card, Button } from 'react-bootstrap';
 // import './MusicRadio.css';
 // import { ListGroup} from 'reactstrap';
@@ -20,18 +20,12 @@ export class RadioPage extends React.Component {
         this.state = {
             radio: [],
             radioId: [],
-       
-
         }
     }
 
     componentDidMount() {
         this.fetchId();
-        // this.fetchRadioById();
-       
     }
-
-     
 
     async fetchId() {
         const url = this.apiUrl;
@@ -45,29 +39,13 @@ export class RadioPage extends React.Component {
         });
       }
 
-    //   async fetchRadioById() {
-    //     const url =  this.apiUrl;
-    //     axios.get(url)
-    //     .then(response => {
-    //         let radioById = response.data;
-    //         console.log(radioById);
-    //         this.setState({radioById});
-    //         // console.log(this.state.radio);
-    //     })
-    //     .catch(err => {
-    //         console.log(err);
-    //     });
-    //   }
-      
-
     render() {
          
         return (
-            
             <div>
-                 <h5 className="card-title"> Radio id: {this.ID}</h5>
-                 {this.state.radio.map(radio => 
-                <div className="card mb-3" key={radio.id}>
+             
+                {this.state.radio.map(radio => 
+                <div className="card mb-3 radio-page-container" key={radio.id}>
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={radio.image} className="card-img" alt="..."></img>
@@ -85,7 +63,7 @@ export class RadioPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                 )}
+                )}
             </div>
         );
     }  

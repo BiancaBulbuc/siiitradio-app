@@ -1,7 +1,10 @@
 import React from 'react';
-// import {Card, CardText,
-//     CardTitle, CardSubtitle,CardBody } from 'reactstrap';
+import { NavLink } from 'reactstrap';
+import {Figure} from "react-bootstrap";
 import './Main-Footer.css'
+import logo from './logo.png';
+import footer from './footer2.png';
+ 
 // import axios from 'axios';
 // import logo from './logo.jpeg'; // with import
 
@@ -15,36 +18,36 @@ export class MainFooter extends React.Component {
 
     render() {
         return (
-<div>
-  <footer className="bg-dark text-white mt-4">
-    {/* <div class="container-fluid py-3">
-      <div class="row"></div>
-      <div class="col-md-3"></div>
-      <h5>Footer</h5>
-    </div>
-    <div>
-      <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">I stay at the bottom of the viewport! 
-        <span class="small">
-          <br>Unless the page content pushes me further.
-        </span>
-      </div>
-    </div>
-    <div class="col-md-3"></div>
-    <div class="col-md-3 text-right small align-self-end">©2017 Brand, Inc.</div>
-    
-    </div> */}
-  </footer>
-</div>
-          
-             
+          <div className="footer-container">
+            
+              <div className= "footer-wrapper">
+              <Figure.Image className="logo-image"
+                  alt="logo"
+                  src={logo}
+                  />
+                <div className="useful-links">
+                  <h2 className="footer-link">USEFUL LINKS</h2>
+                  <h2 className="footer-link"><a href="">CAREERS</a></h2>
+                  <h2 className="footer-link"><a href="">CONTACT US</a></h2>
+                </div>
+                <div className="privacy-links">
+                  <h2 className="footer-link"><a href="">TERMS AND CONDITIONS</a></h2>
+                  <h2 className="footer-link"><a href="">PRIVACY POLICY</a></h2>
+                </div>
+                <div className="copyright">
+                  <p>Copyright © 2019 All Rights Reserved by SiiT RADIO.</p>
+                </div>
+                
+                <Figure.Image className="footer-image"
+                  alt="footer"
+                  src={footer}
+                  />
+              </div>
+            
+          </div>
             );
         }
     }
 
-;    
+
 

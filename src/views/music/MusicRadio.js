@@ -53,31 +53,25 @@ export class MusicRadio extends React.Component {
             <h3>Explore MUSIC radios</h3>
             </div>
            
-                <div class="cards-layout">
+                <div className="cards-layout">
                 {this.state.radio.map(radio => 
                 <CardDeck  className="radio-card" key={radio}>
-                    <Card>
+                    <Card className="radio-backgrround">
                         <Card.Img className="radio-image" variant="top" src={radio.image}/>
                         <Card.Body>
                         <Card.Title> {radio.name} </Card.Title>
                         <Card.Text key={radio}>
-                       
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
+                       {radio.description}
                         </Card.Text>
                         </Card.Body>
                         
-                        <Card.Footer className="card-footer">
-                        <Link to= {"/views/radiopage/" + radio.id}> listen here {radio.id}
+                        <Card.Footer key={radio} className="card-footer">
+                        <Link  to= {"/views/radiopage/" + radio.id}> Listen here
                         </Link>
                         </Card.Footer>
                     </Card>
                 </CardDeck>)}
                 </div>
-                <audio controls autoPlay=""><source src="http://edge126.rdsnet.ro:84/profm/profm.mp3" type="audio/mp3"/> </audio>
-                <audio controls autoPlay=""><source src="http://listen.livestreamingservice.com/181-80scountry_128k.mp3" type="audio/mp3"/></audio>
-            
-            
             </div>
         );
     }

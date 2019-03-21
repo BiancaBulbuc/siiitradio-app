@@ -42,21 +42,20 @@ export class HomeRadio extends React.Component {
 
     render() {
         return (
-      
-            <div className="main-container">
+            <div className="home-container">
                 <h3> All Radios</h3>
                 {this.state.radio.map(radio =>
-                <Figure className="cards-layout">
+                <ListGroup className="layout">
+                <Figure className="radio-card">
                 <Figure.Image className="radio-card"
-                  width={171}
-                  height={180}
-                  alt="171x180"
+                  alt="radio image"
                   src={radio.image}
                 />
-                <Figure.Caption>
+                <Figure.Caption className="link">
                 <a href ={"/views/radiopage/" + radio.id}>{radio.name}</a>
                 </Figure.Caption>
               </Figure>
+              </ListGroup>
                 )}
             </div>
             );

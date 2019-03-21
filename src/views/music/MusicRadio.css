@@ -1,33 +1,44 @@
 .main-container {
     height: auto;
-    width: 380px;
+    width: 100%;
     margin: 0px;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .main-container h3 {
+    width: 310px;
+    margin-left: 10px;
     background-color: turquoise;
 }
 
 .cards-layout {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+    margin-top: 20px;
+    margin-left: 40px;
     
 }
 
 .radio-card {
-   width: 400px;
-   height: 500px;
-   margin: 10px;
-   display: flex;
-   flex-direction: row;
+    width: 310px;
+   
 
+}
+
+
+.radio-background {
+    /* background-image: url("card.png");
+    background-repeat: no-repeat;  */
+    
+    /* height: 450px; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .radio-image {
@@ -36,7 +47,7 @@
 }
 
 .card-footer {
-    background-color: coral;
+    background-color: #f2f2f2;
     /* width: 50%; */
 }
 
