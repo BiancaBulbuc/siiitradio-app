@@ -11,6 +11,7 @@ import { HomeRadio } from './views/home/HomeRadio';
 import { Team } from './views/team/team';
 import { RadioPage } from './views/radiopage/RadioPage';
 import { MainFooter } from './shared/footer/MainFooter';
+import { Homepage } from './views/Homepage/Homepage';
 import { Container, Row, Col } from 'reactstrap';
 
 
@@ -22,6 +23,8 @@ class App extends Component {
       <BrowserRouter>
       <div className="App">
         <Container>
+         
+        
           <Row className="app-main-container">
             <Col className="menu">
               <SideMenu className="side-menu" site_name="podcast_app"></SideMenu>
@@ -33,6 +36,7 @@ class App extends Component {
               <Route exact path = "/views/local-radios" component = {LocalRadio} />
               <Route exact path = "/views/team" component = {Team} />
               <Route exact path = "/views/radiopage/:radioId" component = {RadioPage} />
+              <Route exact path = "/views/homepage" component = {Homepage} />
             </Col>
           </Row>
           <Row className=" align-items-end">

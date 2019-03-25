@@ -1,52 +1,34 @@
+import React from 'react';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import {LinkContainer } from'react-router-bootstrap';
+// import logo from './logo.png';
 
-import React from "react";
-import {
-Collapse,
-Container,
-Navbar,
-NavbarToggler,
-Nav,
-NavItem,
-NavLink
-} from "reactstrap";
-import {LinkContainer } from 'react-router-bootstrap';
-import './Side-Menu.css';
-import logo from './logo.png'; // Tell Webpack this JS file uses this image
-
-export default class Navigation extends React.Component {
-constructor(props) {
+export class NavbarHomepage extends React.Component {
+  constructor(props) {
     super(props);
+
     this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.closeNavbar = this.closeNavbar.bind(this);
     this.state = {
-    collapsed: true
+      collapsed: true
     };
-}
+  }
 
-toggleNavbar() {
-  this.setState({
-    collapsed: !this.state.collapsed
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
     });
-}
-
-closeNavbar() {
-    if (this.state.collapsed === true) {
-    this.toggleNavbar();
-    }
-}
-
-render() {
+  }
+  
+  render() {
     return (
-    <header>
-      
-        <Navbar className="navigation__navbar side-menu" light expand="md" >
-        <Container >
-        
-        <div className="menu">
-            <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-            <Collapse className="menu navigation-menu" isOpen={!this.state.collapsed} navbar>
+      <div>
+        <Navbar color="faded" light>
+          <NavbarBrand href="/" className="mr-auto">reactstrap</NavbarBrand>
+          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+          <Collapse isOpen={!this.state.collapsed} navbar>
+            <Nav navbar>
             <Nav className="mr-auto" navbar>
-            <NavLink className="menu-img" href="/views/Homepage"><img src={logo} alt="Logo" /></NavLink>
+            <NavLink className="menu-img" href="/views/home"><img src="" alt="Logo" /></NavLink>
             <LinkContainer exact to= "/views/home">
               <NavItem onClick={this.toggleNavbar} className="menu-item">
                 <NavLink href="/views/home">Home</NavLink>
@@ -88,15 +70,10 @@ render() {
                </NavItem>
              </LinkContainer>
             </Nav>
-            </Collapse>
-            </div>
-            <div className="logo-nav">
-            <NavLink  href="/views/Homepage"><img src={logo} alt="Logo" /></NavLink>
-            </div>
-        </Container>
+            </Nav>
+          </Collapse>
         </Navbar>
-     
-    </header>
+      </div>
     );
-}
+  }
 }

@@ -10,14 +10,15 @@
 .home-container .layout {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
-    /* align-content: center; */
+    justify-content: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 
 .layout .radio-card {
     width: 100px;
-    align-self: center;
+    align-self: flex-start;
+    flex-wrap: wrap;
     
 }
 

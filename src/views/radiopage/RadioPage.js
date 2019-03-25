@@ -40,7 +40,6 @@ export class RadioPage extends React.Component {
       }
 
     render() {
-         
         return (
             <div>
              
@@ -55,7 +54,7 @@ export class RadioPage extends React.Component {
                                 <h5 className="card-title">{radio.name}</h5>
                                 <p className="card-text">{radio.description}</p>
                                 <p className="card-text"> 
-                                    <audio controls autoPlay="">
+                                    <audio controls autoPlay="autoplay">
                                         <source src={radio.streamURL} type="audio/mp3"/>
                                     </audio>
                                 </p>
