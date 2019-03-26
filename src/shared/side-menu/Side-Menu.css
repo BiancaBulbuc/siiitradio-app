@@ -40,6 +40,14 @@
 }
 
 
+@media screen and (min-width: 360px){
+  .side-menu {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+
 
 
 

@@ -72,11 +72,12 @@ export class LocalRadio extends React.Component {
                         </Card.Body>
                         
                         <Card.Footer className="card-footer">
-                        <Link to= {"/views/radiopage/" + radio.id }> Listen here
+                        <Link to= {"/radiopage/" + radio.id }> Listen here
                         </Link>
                         </Card.Footer>
                     </Card>
                 </CardDeck>)}
+                
                 </div>
             </div>
         );

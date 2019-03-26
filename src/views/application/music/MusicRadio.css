@@ -1,13 +1,11 @@
 .main-container {
     height: auto;
     width: 100%;
-    margin: 0px;
     padding-top: 20px;
 }
 
 .main-container h3 {
-    width: 310px;
-    margin-left: 10px;
+    width: 300px;
     background-color: turquoise;
 }
 
@@ -17,17 +15,14 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* flex-wrap: wrap; */
-    /* width: 100%; */
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 10px;
     
 }
 
 .radio-card {
-    width: 310px;
+    width: 300px;
    
-
 }
 
 
@@ -52,10 +47,10 @@
 }
 
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 360px) {
     .main-container {
+        width: 1200px;
         height: auto;
-        width: 1400px;
         margin: 0px;
         padding-top: 80px;
     }
@@ -77,12 +72,18 @@
     }
     
     .radio-card {
-       width: 400px;
-       height: 500px;
+       width: 250px;
+       height: 600px;
        margin: 10px;
        display: flex;
        flex-direction: row;
+       flex-wrap: wrap;
     
+    }
+
+    .radio-background {
+        width: 100%;
+        align-items: center;
     }
     
     .radio-image {
@@ -91,7 +92,7 @@
     }
     
     .card-footer {
-        background-color: coral;
-        /* width: 50%; */
+        /* background-color: coral; */
+        width: 100%;
     }
 }

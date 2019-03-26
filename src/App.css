@@ -31,6 +31,15 @@ a {
 
 
 @media screen and (min-width: 360px){
- 
+ .App {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .page-views {
+     display: flex;
+     flex-direction: row;
+ }
  
 }

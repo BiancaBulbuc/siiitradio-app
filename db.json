@@ -3,8 +3,9 @@
     {
       "id": 1,
       "name": "90's decade",
-      "description": "Popular music in the 1990s saw the continuation of teen pop and dance-pop trends which had emerged in the 1970s and 1980s. Furthermore, hip hop grew and continued to be highly successful in the decade, with the continuation of the genre's golden age.",
+      "description": "Popular music in the 1990s saw the continuation of teen pop and dance-pop trends which had emerged in the 1970s and 1980s.",
       "image":"https://www.sheinthecle.com/wp-content/uploads/2017/08/90s.png",
+      "coverimage": "https://requestreduce.org/images/text-clipart-creator-14.jpg",
       "streamURL": "http://listen.livestreamingservice.com/181-star90s_128k.mp3",
       "mediaType": "audio/mp3",
       "location": "USA",
@@ -14,7 +15,7 @@
       "id": 2,
       "name": "Old School HipHop/RnB",
       "description": " ",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpgoKOq_rKvqxsjwUBNhgaywpGR5uSrtk309BFcwNGp8dFJYnoWA",
+      "image":"https://www.selectspecs.com/fashion-lifestyle/wp-content/uploads/2017/06/ghettoblaster-radio-recorder-boombox-old-school-159613-1050x788.jpeg",
       "streamURL": "http://listen.livestreamingservice.com/181-oldschool_128k.mp3",
       "mediaType": "audio/mp3",
       "location": "Spain",
@@ -24,8 +25,8 @@
       "id": 3,
       "name": "The Buzz (Alt. Rock)",
       "description": " ",
+      "image":"http://mediapromo.sk/data/komercni/z_Radio%20Rock.jpg",
       "streamURL": "http://listen.livestreamingservice.com/181-buzz_128k.mp3",
-      "image":"https://webradiolive.ro/wp-content/uploads/2018/09/header-player.png",
       "mediaType":"audio/mp3",
       "location": "Austria",
       "category":"music"
@@ -92,52 +93,52 @@
     },
     {
       "id": 10,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
-      "location": " ",
-      "category": "news"
+      "name": "Power Pop Radio",
+      "description": "The credo of the Power Pop Show is simple: bring quality, melodically-driven rock to people who ... The ultimate playlist that has no business being on the radio.",
+      "streamURL":"http://listen.livestreamingservice.com/181-powerexplicit_128k.mp3",
+      "image":"https://assets.podomatic.net/ts/f0/0c/83/icecreammanpowerpop89300/460%3E_13238299.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Usa",
+      "category": "music"
     },
     {
       "id": 11,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
-      "location": " ",
+      "name": "Comedy Live",
+      "description": "Comedy Radio consists of various kinds of comedy sketches, talk and situation comedy shows. It may also include broadcasts of live stand up Comedy shows.",
+      "streamURL":"http://listen.livestreamingservice.com/181-comedy_128k.mp3",
+      "image":"https://images-na.ssl-images-amazon.com/images/I/514hRjR2g4L._SY355_.png",
+      "mediaType": "audio/mp3",
+      "location": "Usa",
       "category": "news"
     },
     {
       "id": 12,
-      "name": " ",
+      "name": "70's Classics",
       "description": " ",
-      "streamURL":" ",
+      "streamURL":"http://listen.livestreamingservice.com/181-70s_128k.mp3",
       "image":" ",
-      "mediaType": " ",
+      "mediaType": "audio/mp3",
       "location": " ",
       "category": "news"
     },
     {
       "id": 13,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
+      "name": "The Eagle",
+      "description": "From the makers of Eagle Radio, Eagle 70s plays the greatest songs from music's greatest era. Listen to legendary artists like The Rolling Stones, Elton John, ...",
+      "streamURL":"http://listen.livestreamingservice.com/181-eagle_128k.mp3",
+      "image":"https://static.radio.net/images/broadcasts/b1/5d/116702/1/c300.png" ,
+      "mediaType": "audio/mp3",
       "location": "Romania",
       "category": "news"
     },
     {
       "id": 14,
-      "name": " ",
+      "name": "The Vibe of Vegas",
       "description": " ",
-      "streamURL":" ",
+      "streamURL":"http://listen.livestreamingservice.com/181-vibe_128k.mp3",
       "image":" ",
-      "mediaType": " ",
-      "location": " ",
+      "mediaType": "audio/mp3",
+      "location": " Usa",
       "category": "news"
     },
     {
@@ -146,49 +147,49 @@
       "description": " ",
       "streamURL":" ",
       "image":" ",
-      "mediaType": " ",
+      "mediaType": "audio/mp3",
       "location": " ",
       "category": "news"
     },
     {
       "id": 16,
-      "name": " ",
+      "name": "Front Porch",
       "description": " ",
-      "streamURL":" ",
+      "streamURL":"http://listen.livestreamingservice.com/181-frontporch_128k.mp3",
       "image":" ",
-      "mediaType": " ",
+      "mediaType": "audio/mp3",
       "location": "Romania",
       "category": "news"
     },
     {
       "id": 17,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
+      "name": "ProFM  ",
+      "description": "PRO FM este un post de radio din România și Republica Moldova care este deținut de trustul RCS & RDS. A început să emită pe 15 aprilie 1993, iar în prezent are format de format radio digital pentru Internet. ",
+      "streamURL":"http://edge126.rdsnet.ro:84/profm/profm.mp3",
+      "image":"https://myradioonline.ro/public/uploads/radio_img/profm/play_250_250.png",
+      "mediaType": "audio/mp3",
       "location": "Romania",
       "category": "news"
     },
     {
       "id": 18,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
-      "location": " ",
+      "name": "Radio România Actualităţi  ",
+      "description": "Radio România Actualități este un post public de radio, de informare de interes național cu format generalist, care reflectă evenimentele cotidiene, atât cele interne cât și pe cele internaționale. Radio România Actualități este unicul post din România cu acoperire națională de peste 99% din teritoriul țării.",
+      "streamURL":"http://www.romania-actualitati.ro/romania-actualitati-live.m3u",
+      "image":"https://www.oriceradio.ro/oc-content/uploads/0/35.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Romania",
       "category": "news"
     },
     {
       "id": 19,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
-      "mediaType": " ",
-      "location": " ",
-      "category": "news"
+      "name": "Radio Guerrilla",
+      "description": "Ne place libertatea si nu libertinajul de consum. Ne place sa punem cap acolo unde altii vad doar capatul.",
+      "streamURL":"http://live.guerrillaradio.ro:8010/guerrilla.aac",
+      "image":"https://pbs.twimg.com/profile_images/903493617783672832/tuBeLCJW_400x400.jpg",
+      "mediaType": "audio/mp3",
+      "location": "Romania",
+      "category": "music"
     },
     {
       "id": 20,
@@ -196,8 +197,8 @@
       "description": " ",
       "streamURL":" ",
       "image":" ",
-      "mediaType": " ",
-      "location": " ",
+      "mediaType": "audio/mp3",
+      "location": "USA",
       "category": "news"
     }
   ],
@@ -227,6 +228,32 @@
       "facebook": "https://www.facebook.com/radustoian93",
       "github": "https://github.com/BiancaBulbuc"
     }
+  ],
 
+  "countries": [
+    {
+      "id": 1,
+      "country": "Romania"
+    },
+    {
+      "id": 1,
+      "country": "Swiss"
+    },
+    {
+      "id": 1,
+      "country": "Usa"
+    },
+    {
+      "id": 1,
+      "country": "Uk"
+    },
+    {
+      "id": 1,
+      "country": "Germany"
+    },
+    {
+      "id": 1,
+      "country": "Romania"
+    }
   ]
 }

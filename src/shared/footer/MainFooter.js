@@ -1,15 +1,9 @@
 import React from 'react';
-import { NavLink } from 'reactstrap';
+// import { NavLink } from 'reactstrap';
 import {Figure} from "react-bootstrap";
 import './Main-Footer.css'
 import logo from './logo.png';
 import footer from './footer2.png';
- 
-// import axios from 'axios';
-// import logo from './logo.jpeg'; // with import
-
- 
-// import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
  
 export class MainFooter extends React.Component {
@@ -27,7 +21,7 @@ export class MainFooter extends React.Component {
                   />
                 <div className="useful-links">
                   <h2 className="footer-link">USEFUL LINKS</h2>
-                  <h2 className="footer-link"><a href="">CAREERS</a></h2>
+                  <h2 className="footer-link"><a href="#">CAREERS</a></h2>
                   <h2 className="footer-link"><a href="">CONTACT US</a></h2>
                 </div>
                 <div className="privacy-links">

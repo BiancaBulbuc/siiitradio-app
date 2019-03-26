@@ -1,5 +1,5 @@
 import React from 'react';
-import {ListGroup, Figure, Carousel} from 'react-bootstrap';
+import {ListGroup, Figure, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 // import { RadioPage } from './views/radiopage/RadioPage';
 // import { Nav, NavItem, NavLink} from 'reactstrap';
@@ -44,19 +44,22 @@ export class HomeRadio extends React.Component {
         return (
             <div className="home-container">
                 <h3> All Radios</h3>
-                {this.state.radio.map(radio =>
-                <ListGroup className="layout">
-                <Figure className="radio-card">
-                <Figure.Image 
-                  alt="radio image"
-                  src={radio.image}
-                />
-                <Figure.Caption className="link">
-                <a href ={"/views/radiopage/" + radio.id}>{radio.name}</a>
-                </Figure.Caption>
-              </Figure>
-              </ListGroup>
-                )}
+                <div className="layout">
+                    {this.state.radio.map(radio =>
+                    <ListGroup>
+                    <Figure className="radio-card">
+                    <Figure.Image 
+                    alt="radio image"
+                    src={radio.image}
+                    />
+                    <Figure.Caption className="link">
+                    <a href ={"/radiopage/" + radio.id}>{radio.name}</a>
+                    </Figure.Caption>
+                    </Figure>
+                    </ListGroup>
+                    )}
+                </div>
+             
             </div>
       
             );

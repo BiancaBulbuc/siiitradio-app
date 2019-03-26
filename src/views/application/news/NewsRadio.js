@@ -1,12 +1,16 @@
 import React from 'react';
 import axios from 'axios';
 import { CardDeck, Card } from 'react-bootstrap';
-import './MusicRadio.css';
+// import {  NavLink} from 'reactstrap';
+// import './MusicRadio.css';
+// import { ListGroup} from 'reactstrap';
+// import {LinkContainer} from 'react-router-bootstrap';
 import { Link } from "react-router-dom";
 
+// import { RadioPage } from '../radiopage/RadioPage';
 
  
-export class MusicRadio extends React.Component {
+export class NewsRadio extends React.Component {
     constructor (props) {
         super(props);
         this.apiUrl = "http://localhost:3004/radios";
@@ -31,7 +35,7 @@ export class MusicRadio extends React.Component {
         const url = this.apiUrl;
         axios.get(url)
         .then(response => {
-            let radio = response.data.filter(radios => { return (radios.category === "music")});
+            let radio = response.data.filter(radios => { return (radios.category === "news")});
             // console.log(response.data);
             this.setState({radio});
             // console.log(this.state.radio);
@@ -50,23 +54,25 @@ export class MusicRadio extends React.Component {
         return (
             <div className="main-container">
             <div>
-            <h3>Explore MUSIC radios</h3>
+            <h3>Explore NEWS radios</h3>
             </div>
            
-                <div className="cards-layout">
+                <div class="cards-layout">
                 {this.state.radio.map(radio => 
                 <CardDeck  className="radio-card" key={radio}>
-                    <Card className="radio-backgrround">
+                    <Card>
                         <Card.Img className="radio-image" variant="top" src={radio.image}/>
                         <Card.Body>
                         <Card.Title> {radio.name} </Card.Title>
                         <Card.Text key={radio}>
-                       {radio.description}
+                       
+                            This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
                         </Card.Text>
                         </Card.Body>
                         
-                        <Card.Footer key={radio} className="card-footer">
-                        <Link  to= {"/views/radiopage/" + radio.id}> Listen here
+                        <Card.Footer className="card-footer">
+                        <Link to= {"/radiopage/" + radio.id }> Listen here
                         </Link>
                         </Card.Footer>
                     </Card>

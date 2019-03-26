@@ -1,20 +1,21 @@
 .team-container {
     width: 100%;
-    
 }
 
 .card-container {
+    width: 310px;
     display: flex;
     flex-direction: column;
 }
 
 .team-container  h3 {
     background-color: turquoise;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .member-card {
-    /* width: 400px; */
+    width: 300px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,10 +26,12 @@
 }
 
 .cards {
-    width: 180px;
-    height: auto;
+    
 }
 
+.member-img{
+    width: 110px;
+}
 
 
 

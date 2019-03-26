@@ -1,0 +1,39 @@
+.App {
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(205, 248, 209); */
+}
+
+.app-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    /* border: 1px solid rgb(57, 20, 221); */
+}
+
+
+
+.page-views {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #40e0d0;
+}
+
+
+@media screen and (min-width: 360px){
+ .App {
+    width: 1200px;
+    
+ }
+ 
+}
