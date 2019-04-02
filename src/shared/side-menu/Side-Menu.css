@@ -1,5 +1,6 @@
 .side-menu {
   width: 100%;
+  margin-left: 15px;
   background-color: #fff;
   position: sticky;
   z-index: 99999999;
@@ -17,6 +18,11 @@
 
 .menu-item {
   color: #888;
+}
+
+.menu-item-logo {
+  margin-left: 130px;
+
 }
 
 .menu-item:hover {
@@ -41,10 +47,7 @@
 
 
 @media screen and (min-width: 360px){
-  .side-menu {
-    width: 100%;
-    flex-direction: column;
-  }
+ 
 }
 
 

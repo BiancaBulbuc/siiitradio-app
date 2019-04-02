@@ -21,7 +21,7 @@
     height: 200px;
     border: 1px solid #888;
     margin: 10px;
-    align-self: flex-start; 
+    align-self: center; 
     
 }
 
@@ -35,6 +35,10 @@
     font-weight: 700;
     /* text-align: center; */
    
+}
+
+.home-images {
+    width: 100px;
 }
 
 

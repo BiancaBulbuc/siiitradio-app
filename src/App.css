@@ -1,5 +1,5 @@
 .App {
-    width: 350px;
+    width: 300px;
     top: 0;
     bottom: 0;
     left: 0px;
@@ -13,20 +13,26 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-content: flex-start;
+    align-content: center;
     /* border: 1px solid rgb(57, 20, 221); */
 }
-
-
+ 
 
 .page-views {
     width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
 }
 
 a {
     color: #40e0d0;
+}
+
+.footer {
+    width: 300px;
+    min-height: 100vh;  
+    margin-bottom: 0px;
 }
 
 
@@ -37,9 +43,26 @@ a {
     flex-direction: column;
  }
 
+ .app-main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+ 
+}
+
  .page-views {
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
  }
+
  
+
+.side-menu {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+}
 }

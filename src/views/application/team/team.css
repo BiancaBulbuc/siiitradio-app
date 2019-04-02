@@ -3,18 +3,20 @@
 }
 
 .card-container {
-    width: 310px;
+    width: 270px;
     display: flex;
     flex-direction: column;
 }
 
 .team-container  h3 {
+    width: 270px;
     background-color: turquoise;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    padding-left: 10px;
 }
 
 .member-card {
-    width: 300px;
+    width: 270px;
     height: auto;
     display: flex;
     flex-direction: row;

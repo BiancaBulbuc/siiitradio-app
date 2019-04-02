@@ -51,7 +51,7 @@ export class MusicRadio extends React.Component {
            
                 <div className="cards-layout">
                 {this.state.radio.map(radio => 
-                <CardDeck  className="radio-card" key={radio}>
+                <CardDeck  className="radio-card" key={radio.id}>
                     <Card className="radio-background">
                         <Card.Img className="radio-image" variant="top" src={radio.image}/>
                         <Card.Body>

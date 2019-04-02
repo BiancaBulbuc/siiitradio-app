@@ -1,15 +1,19 @@
 .radio-page-container {
-    width: 330px;
+    background: rgb(238,174,202);
+        background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 280px;
     padding: 0px;
 }
 
 .cover-image {
+    
     width: 100%;
     margin: 0px;
     padding-bottom: 20px;
 }
 
 .card-play {
+    
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -30,6 +34,7 @@
 
 .play-audio {
     /* border: 1px solid #888; */
+    width: 250px;
     margin-top: 10px;
     border-radius: 50px 50px 50px 50px; 
     -moz-border-radius: 50px 50px 50px 50px; 
@@ -41,12 +46,14 @@
 }
 
 .button-group {
-    margin: 20px 0px;
-    /* width: 100%; */
+    margin: 40px 20px;
+    width: 100%;
 }
 
 .button{
-    width: 140px;
+    width: 180px;
+    padding: 10px;
+    margin: 3px;
     background-color: turquoise;
     color: white;
     border: 1px solid #888;
@@ -111,7 +118,10 @@
     }
 
     .play-audio {
-        margin-left: 200px;
+        width: 900px;
+        background: rgb(238,174,202);
+        background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        
     }
    
 

@@ -2,7 +2,10 @@ import React from 'react';
 // import { NavbarHomepage } from '../../shared/navbar/NavbarHomepage';
 // import { SideMenu } from '../../shared/side-menu/SideMenu';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { Application } from '../../views/application/Application';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Application } from '../../views/application/Application'; 
+// import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
+
 import {Carousel, Jumbotron, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import slide1 from './slide1.jpg';
@@ -16,6 +19,11 @@ export class Homepage extends React.Component {
       <BrowserRouter>
         <div className="Homepage-container">
           <Route exact path to = "/Application" component = {Application}/>
+
+          <LinkContainer exact to= "/social-login">
+              <a href="/social-login">Log in with Facebook or Google </a>
+           </LinkContainer>
+          
           <Carousel className="Homepage-carousel">
             <Carousel.Item>
               <img

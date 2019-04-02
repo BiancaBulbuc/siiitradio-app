@@ -1,4 +1,7 @@
 {
+
+
+
   "radios": [
     {
       "id": 1,
@@ -208,7 +211,7 @@
       "id":1,
       "name": "Maria Murea",
       "image": "https://imagizer.imageshack.com/img922/7007/iy9MaU.png",
-      "description": "Homepage Creator! She did it all about the first impression. All about the homepage, the presentation and the data panel to acces it all and enter the whole application",
+      "description": " ",
       "facebook": "https://www.facebook.com/maria.nan.77",
       "github": "https://github.com/MariaMurea"
     },
@@ -216,7 +219,7 @@
       "id":2,
       "name": "Radu Stoian",
       "image": "https://imagizer.imageshack.com/img924/3183/2BHPkM.png",
-      "description": "He is the brains behind the big magic LOG IN / SIGN UP setup, he had it all figure out with jpy and sweat, trust him with your personal dates, he made it all secure... ",
+      "description": "  ",
       "facebook": "https://www.facebook.com/radustoian93",
       "github": "https://github.com/ZoresV"
     },
@@ -224,11 +227,12 @@
       "id":3,
       "name": "Bianca Bulbuc",
       "image": "https://imagizer.imageshack.com/img921/687/9vdECj.png",
-      "description": "Since I made this presentation, well, I will leave my collegues to add some description live. But if they don't do it, you should know, I made the app walk you through music, news and all sorts of radios, I also added in the data base...hope it looks pretty too...",
+      "description": " ",
       "facebook": "https://www.facebook.com/radustoian93",
       "github": "https://github.com/BiancaBulbuc"
     }
   ],
+
 
   "countries": [
     {
@@ -254,6 +258,14 @@
     {
       "id": 1,
       "country": "Romania"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "",
+      "email": "",
+      "favorites": ""
     }
   ]
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './RadioPage.css';
 import { Card, Button, Image, ButtonToolbar } from 'react-bootstrap';
+import { SocialShare } from './SocialShare';
 // import './MusicRadio.css';
 // import { ListGroup} from 'reactstrap';
 // import {ListGroup} from 'react-router-bootstrap';
@@ -38,10 +39,7 @@ export class RadioPage extends React.Component {
         });
       }
 
-
-
     render() {
-
         return (
             <div>
                 {this.state.radio.map(radio =>
@@ -56,7 +54,7 @@ export class RadioPage extends React.Component {
                             <h5 className="card-title">{radio.name}</h5>
                             <ButtonToolbar className="button-group">
                                 <Button className="button" variant="outline-warning">Favourite</Button>
-                                <Button className="button" variant="outline-danger">Share</Button>
+                                <SocialShare></SocialShare>
                             </ButtonToolbar>
                         </div>
                     </Card.Text>

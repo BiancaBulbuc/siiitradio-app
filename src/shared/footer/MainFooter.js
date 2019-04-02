@@ -21,12 +21,12 @@ export class MainFooter extends React.Component {
                   />
                 <div className="useful-links">
                   <h2 className="footer-link">USEFUL LINKS</h2>
-                  <h2 className="footer-link"><a href="#">CAREERS</a></h2>
-                  <h2 className="footer-link"><a href="">CONTACT US</a></h2>
+                  <h2 className="footer-link"><a href="/">CAREERS</a></h2>
+                  <h2 className="footer-link"><a href="/">CONTACT US</a></h2>
                 </div>
                 <div className="privacy-links">
-                  <h2 className="footer-link"><a href="">TERMS AND CONDITIONS</a></h2>
-                  <h2 className="footer-link"><a href="">PRIVACY POLICY</a></h2>
+                  <h2 className="footer-link"><a href="/">TERMS AND CONDITIONS</a></h2>
+                  <h2 className="footer-link"><a href="/">PRIVACY POLICY</a></h2>
                 </div>
                 <div className="copyright">
                   <p>Copyright © 2019 All Rights Reserved by SiiT RADIO.</p>

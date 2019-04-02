@@ -1,17 +1,19 @@
 
 
 .footer-container {
-    width: 100%;
+    width: 100vw;
     background-color: #f2f2f2;
     
 }
 
-.footer-container .footer-wrapper{
-    margin-top: 40px;
-    max-width: 320px;
+.footer-container .footer-wrapper{ 
+    max-width: 300px;
+    
+    
 }
 
 .logo-image {
+    margin-top: 80px;
     width: 150px;
 }
  
@@ -38,3 +40,12 @@
     font-size: .8em;
 }
 
+.footer-image {
+    width: 100%; 
+    position: bottom left;     
+}
+
+@media screen and (min-width: 360px){
+
+
+}
