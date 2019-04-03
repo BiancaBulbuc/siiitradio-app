@@ -1,57 +1,51 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+// import UserContext from '../../../../shared/user-context/user.context';
+// import { Redirect } from 'react-router-dom';
+// import { Button, Form, Container, Row, Image, Col } from 'react-bootstrap';
 
-export class SignUp extends Component {
-    constructor(props) {
-        super(props);
+export default class SignUp extends React.Component {
 
-        this.state = {
-            // id: 0,
-            email: '',
-            password: '',
-            name: ''
-            // hasAgreed: false
-        };
+  constructor(props) {
+    super(props);
+    this.apiUrl = "http://localhost:3004/users";
+    this.state = {
+      id: 0,
+      user: {},
+      name: '',
+      email: '',
+      password: '',
+      redirect: false,        
+      validated: false,
+      isValid: true,
+      userExist: []
+    };
 
-        this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
+    this.inputChanged = this.inputChanged.bind(this);
+    this.formSubmit = this.formSubmit.bind(this);
+}
 
-    handleChange(e) {
-        let target = e.target;
-        let value = target.type === 'checkbox' ? target.checked : target.value;
-        let name = target.name;
+async inputChanged(e) { // hot plate
+  const value = e.currentTarget.value;
+  const user = this.state.user;
+  user[e.currentTarget.id] = value;
+  this.setState({user});
+}
 
-        this.setState({
-          [name]: value
-        });
-    }
+async formSubmit(e) {
+  e.preventDefault();
+  const form = e.currentTarget;
+  if (form.checkValidity() === false) {
+    return;
+  } 
 
-    handleSubmit(e) {
-        e.preventDefault();
+  const resp =  await axios.post(this.apiUrl, this.state.user);  
+  console.log(resp.data);
 
-        fetch('http://localhost:3004/users', {
-          method: 'POST',
-          headers: {
-            'Accept': 'applocation/json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify( {
-            id : this.state.id,
-            name : this.state.name,
-            email : this.state.email,
-            username : this.state.username,
-            password : this.state.password,
-            item : this.state.item,
-            itemType : this.state.itemType
-          })
-        }).then(res => res.json())
-        .then(value => console.log(value))
-        .catch(err => console.log(err));
-
-        console.log('The form was submitted with the following data:');
-        console.log(this.state);
-    }
+  this.context.handleUserChange(resp.data);
+  this.setState({validated: true, user: resp.data, redirect: true});
+}
 
     render() {
         return (

@@ -12,9 +12,14 @@ import { LocalRadio } from './views/application/local-radios/LocalRadio';
 import { Team } from './views/application/team/team';
 import { RadioPage } from './views/application/radiopage/RadioPage';
 import { Container, Row, Col } from 'reactstrap';
+import Login from './views/application/account-user/login/Login';
+import SignUp from './views/application/account-user/signup/SignUp';
+import { Link, withRouter } from "react-router-dom";
+
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -38,6 +43,8 @@ export default class App extends Component {
               <Route exact path = "/local-radios" component = {LocalRadio} />
               <Route exact path = "/team" component = {Team} />
               <Route exact path = "/radiopage/:radioId" component = {RadioPage} />
+              <Route exact path = "/login" component = {Login} />
+              <Route exact path = "/signup" component = {SignUp} />
             </Col>
           </Row>
           <Row className=" align-items-end">

@@ -79,9 +79,14 @@ export class SideMenu extends React.Component {
                   <NavLink href="/">Favourites</NavLink>
                 </NavItem>
               </LinkContainer>
-              <LinkContainer exact to= "/">  
+              <LinkContainer exact to= "/login">  
                 <NavItem onClick={this.toggleNavbar}  className="menu-item">
-                  <NavLink href="/">Account</NavLink>
+                  <NavLink href="/login">Log In</NavLink>
+                </NavItem>
+              </LinkContainer>
+              <LinkContainer exact to= "/signup">  
+                <NavItem onClick={this.toggleNavbar}  className="menu-item">
+                  <NavLink href="/signup">Sign Up</NavLink>
                 </NavItem>
               </LinkContainer>
               <LinkContainer exact to= "/team">  
