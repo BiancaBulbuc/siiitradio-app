@@ -37,10 +37,13 @@ a {
 
 
 @media screen and (min-width: 360px){
+
  .App {
-    width: 1200px;
+    width: 900px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0px;
  }
 
  .app-main-container {
@@ -55,14 +58,22 @@ a {
      display: flex;
      flex-direction: column;
  }
-
  
-
 .side-menu {
-    width: 20%;
+    width: 1000px; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: red;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;
+    border: solid 1px turquoise;
+    margin-top: 50px;
+    margin-left: 200px;
 }
+
+.footer {
+    width: 1300px; 
+    margin-bottom: 0px;
+}
+
 }

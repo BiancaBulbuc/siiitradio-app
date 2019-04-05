@@ -39,14 +39,15 @@
 
 
 @media screen and (min-width: 680px) {
-    .team-container {
-        width: 1350px;
-    }
-
-    .card-container {
-        display: flex;
+     .card-container {
+        width: 100vw;
         flex-direction: row;
     }
+  
+    .member-card {
+        width: 350px; 
+    }
+    
 
 
 }

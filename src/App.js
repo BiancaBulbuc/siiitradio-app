@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
-import { BrowserRouter as Router, Switch,} from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom'; 
 // import { NavbarHomepage } from './shared/navbar/NavbarHomepage';
 // import {FacebookGoogleLogin} from './shared/FacebookGoogleLogin/FacebookLoginButton';
 
@@ -16,11 +15,7 @@ import { LocalRadio } from './views/application/local-radios/LocalRadio';
 import { Team } from './views/application/team/team';
 import { RadioPage } from './views/application/radiopage/RadioPage';
 import { Favorites } from './views/application/favorites/Favorites';
-import { Container, Row, Col } from 'reactstrap';
-
-import { AccountProfile } from './views/application/AccountProfile/index';
-import { AccountProvider } from './views/application/AccountProfile/AccountProvider';
-
+import { Container, Row, Col } from 'reactstrap'; 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FacebookLoginButton } from './shared/FacebookLoginButton/FacebookLoginButton';
@@ -29,48 +24,11 @@ import { FacebookLoginButton } from './shared/FacebookLoginButton/FacebookLoginB
 
 
  
-
-export const Login = () => (
-  <AccountProvider>
-  <Router>
-   <React.Fragment>
-    <SideMenu />
-    <Switch>
-      <Route 
-        exact 
-        path="/ "
-        render={() => <div>Home</div>}
-      />
-      <Route 
-        exact 
-        path="/account/profile "
-        component={AccountProfile} 
-      />
-    </Switch>
-  </React.Fragment>
-  </Router>
-</AccountProvider>
-); 
-
+ 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      user: {}
-    };
-
-    this.handleUserChange = this.handleUserChange.bind(this);
-  }
-
-  handleUserChange(user) {
-    this.setState({ user });
-  }
-  
-
 
   render() {
-   
+
     return (
       <BrowserRouter>
       <div className="App">
@@ -78,8 +36,6 @@ export default class App extends Component {
           <Row className="app-main-container">
             <SideMenu className="app-side-menu"></SideMenu>
             <Search className="search-bar"></Search> 
-            
-            
             <Col  className="page-views">
               <Route exact path = "/Application" component = {Application} />
               <Route exact path = "/homepage" component = {Homepage} />

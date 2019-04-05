@@ -40,7 +40,7 @@ export class SocialShare extends Component {
 
   
     //URL from current page
-    const url = window.location.href;
+    // const url = window.location.href;
     
     //URL patterns for Social media sites share functionalities
     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=`;
@@ -54,13 +54,13 @@ export class SocialShare extends Component {
             </div>
             <div className={this.state.shareOpen} >
 
-                <a   href={facebookUrl} target="_blank"> 
+                <a   href={facebookUrl}  > 
                     <img className="social-image" src={facebook} alt="facebook-icon"></img>
                 </a>
-                <a href={linkedinUrl} target="_blank">
+                <a href={linkedinUrl}  >
                     <img className="social-image"  src={twitter} alt="twitter-icon"></img>
                 </a>
-                <a href={twitterUrl} target="_blank" >
+                <a href={twitterUrl}  >
                     <img className="social-image"  src={linkedin} alt="linkedin-icon"></img>
                 </a>
             </div>           
