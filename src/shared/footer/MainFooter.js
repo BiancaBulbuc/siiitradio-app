@@ -19,8 +19,7 @@ export class MainFooter extends React.Component {
                   alt="logo"
                   src={logo}
                   />
-                <div className="useful-links">
-                  <h2 className="footer-link">USEFUL LINKS</h2>
+                <div className="useful-links"> 
                   <h2 className="footer-link"><a href="/">CAREERS</a></h2>
                   <h2 className="footer-link"><a href="/">CONTACT US</a></h2>
                 </div>
@@ -28,14 +27,20 @@ export class MainFooter extends React.Component {
                   <h2 className="footer-link"><a href="/">TERMS AND CONDITIONS</a></h2>
                   <h2 className="footer-link"><a href="/">PRIVACY POLICY</a></h2>
                 </div>
-                <div className="copyright">
-                  <p>Copyright © 2019 All Rights Reserved by SiiT RADIO.</p>
-                </div>
+
+              
                 
-                <Figure.Image className="footer-image"
-                  alt="footer"
-                  src={footer}
-                  />
+              </div>
+              <div className="column-onweb copyright">
+                  <div className="copyright">
+                  <hr></hr>
+                    <p>Copyright © 2019 All Rights Reserved by SiiT RADIO.</p>
+                  </div>
+                  
+                  <Figure.Image className="footer-image"
+                    alt="footer"
+                    src={footer}
+                    />
               </div>
             
           </div>

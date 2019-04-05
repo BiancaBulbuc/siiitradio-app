@@ -12,8 +12,7 @@ NavLink
 import {LinkContainer } from 'react-router-bootstrap';
 import './Side-Menu.css';
 import logo from './logo.png'; // Tell Webpack this JS file uses this image
-
-import { AccountConsumer } from '../../views/application/AccountProfile/AccountProvider';
+ 
 
 
 
@@ -43,7 +42,8 @@ export class SideMenu extends React.Component {
 
   render() {
       return (
-      <header>
+      
+       
           <Navbar className="navigation__navbar side-menu" light expand="md" >
             <Container >
               <div className="menu">
@@ -75,16 +75,13 @@ export class SideMenu extends React.Component {
                           <NavLink href="/local-radios">Local Radios</NavLink>
                         </NavItem>
                       </LinkContainer>
-
-                      <AccountConsumer>
+ 
                    
                       <LinkContainer exact to= "/account/profile">  
                         <NavItem onClick={this.toggleNavbar}  className="menu-item">
-                          <NavLink href="/account/profile">Your account, {}</NavLink>
+                          <NavLink href="/account/profile">Your account </NavLink>
                         </NavItem>
-                      </LinkContainer> 
-
-                      </AccountConsumer>
+                      </LinkContainer>  
 
                       <LinkContainer exact to= "/favorite">  
                         <NavItem onClick={this.toggleNavbar}  className="menu-item">
@@ -105,7 +102,6 @@ export class SideMenu extends React.Component {
             </Container>
           </Navbar>
       
-      </header>
       );
   }
 }

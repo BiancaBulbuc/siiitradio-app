@@ -10,8 +10,7 @@ import { LocalRadio } from '../../views/application/local-radios/LocalRadio';
 import { HomeRadio } from '../../views/application/home/HomeRadio';
 import { Team } from '../../views/application/team/team';
 import { RadioPage } from '../../views/application/radiopage/RadioPage';
-import { Favorites } from '../../views/application/favorites/Favorites'; 
-import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
+import { Favorites } from '../../views/application/favorites/Favorites';  
 // import { MainFooter } from '../../shared/footer/MainFooter';
 import { Homepage } from '../../views/Homepage/Homepage';
 import { Container, Row, Col } from 'reactstrap'; 
@@ -33,8 +32,7 @@ export class Application extends Component {
                 <Route exact path = "/local-radios" component = {LocalRadio} />
                 <Route exact path = "/team" component = {Team} />
                 <Route exact path = "/radiopage/:radioId" component = {RadioPage} />
-                <Route exact path = "/favorites/:favorites" component = {Favorites} />
-                <Route exact path = "/social-login" component = {FacebookLoginButton}/>
+                <Route exact path = "/favorites/:favorites" component = {Favorites} /> 
                 
               </Col>
             </Row>

@@ -2,28 +2,43 @@ import React from 'react';
 // import { NavbarHomepage } from '../../shared/navbar/NavbarHomepage';
 // import { SideMenu } from '../../shared/side-menu/SideMenu';
 import { BrowserRouter, Route } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
+// import { LinkContainer } from 'react-router-bootstrap';
 import { Application } from '../../views/application/Application'; 
+import   UserContext  from '../../shared/UserContext/UserContext';
+import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
 // import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
 
-import {Carousel, Jumbotron, Container} from 'react-bootstrap';
+import {Carousel, Jumbotron, Container} from 'react-bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import slide1 from './slide1.jpg';
 import slide2 from './slide2.jpg';
 import slide3 from './slide3.jpg';
 
 export class Homepage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        welcome: "Welcome To Siit RADIO",
+        posts: []
+    };
+}
   render() {
     return(
     
       <BrowserRouter>
-        <div className="Homepage-container">
-          <Route exact path to = "/Application" component = {Application}/>
-
-          <LinkContainer exact to= "/social-login">
-              <a href="/social-login">Log in with Facebook or Google </a>
-           </LinkContainer>
-          
+      <div>
+      
+    
+      <Route exact path to = "/Application" component = {Application}/>
+      <Route exact path = "/social-login" component = {FacebookLoginButton}/>
+      <UserContext.Consumer>
+      { ({user}) => (
+        <div className="Homepage-container"> 
+          <p>Welcome {user.name}</p>
+ 
+ 
+ <FacebookLoginButton></FacebookLoginButton>
+           
           <Carousel className="Homepage-carousel">
             <Carousel.Item>
               <img
@@ -70,8 +85,12 @@ export class Homepage extends React.Component {
               </p>
             </Container>
           </Jumbotron>
-        </div>
+        </div>)}
+         </UserContext.Consumer>
+           
+      </div>
       </BrowserRouter>
+         
 
     );
   }

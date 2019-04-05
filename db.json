@@ -211,7 +211,7 @@
       "id":1,
       "name": "Maria Murea",
       "image": "https://imagizer.imageshack.com/img922/7007/iy9MaU.png",
-      "description": " ",
+      "description": "A front-end web developer is probably what most people think of as a “web developer”. A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application. ",
       "facebook": "https://www.facebook.com/maria.nan.77",
       "github": "https://github.com/MariaMurea"
     },
@@ -219,7 +219,7 @@
       "id":2,
       "name": "Radu Stoian",
       "image": "https://imagizer.imageshack.com/img924/3183/2BHPkM.png",
-      "description": "  ",
+      "description": " A front-end web developer is probably what most people think of as a “web developer”. A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application.  ",
       "facebook": "https://www.facebook.com/radustoian93",
       "github": "https://github.com/ZoresV"
     },
@@ -227,7 +227,7 @@
       "id":3,
       "name": "Bianca Bulbuc",
       "image": "https://imagizer.imageshack.com/img921/687/9vdECj.png",
-      "description": " ",
+      "description": "A front-end web developer is probably what most people think of as a “web developer”. A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application.  ",
       "facebook": "https://www.facebook.com/radustoian93",
       "github": "https://github.com/BiancaBulbuc"
     }
@@ -240,23 +240,23 @@
       "country": "Romania"
     },
     {
-      "id": 1,
+      "id": 2,
       "country": "Swiss"
     },
     {
-      "id": 1,
+      "id": 3,
       "country": "Usa"
     },
     {
-      "id": 1,
+      "id": 4,
       "country": "Uk"
     },
     {
-      "id": 1,
+      "id": 5,
       "country": "Germany"
     },
     {
-      "id": 1,
+      "id": 6,
       "country": "Romania"
     }
   ],

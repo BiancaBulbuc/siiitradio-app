@@ -2,7 +2,9 @@ import React from 'react';
 
 const UserContext = React.createContext({
     user: {},
-    onUserUpdated: () => {}
+    handleUserChange: () => {}
 });
 
 export default UserContext;
+
+
