@@ -12,7 +12,7 @@ import { LocalRadio } from './views/application/local-radios/LocalRadio';
 import { Team } from './views/application/team/team';
 import { RadioPage } from './views/application/radiopage/RadioPage';
 import { Container, Row, Col } from 'reactstrap';
-import Login from './views/application/account-user/login/Login';
+import Login from './views/application/account-user/login/LogIn';
 import SignUp from './views/application/account-user/signup/SignUp';
 import { Link, withRouter } from "react-router-dom";
 
