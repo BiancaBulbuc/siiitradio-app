@@ -17,7 +17,7 @@
     {
       "id": 2,
       "name": "Old School HipHop/RnB",
-      "description": " ",
+      "description": "We've rounded up 23 old-school R&B tracks that defined their era but sound as ..... To round-up, we'll leave you with one of the 90s most iconic hip-hop songs.",
       "image":"https://www.selectspecs.com/fashion-lifestyle/wp-content/uploads/2017/06/ghettoblaster-radio-recorder-boombox-old-school-159613-1050x788.jpeg",
       "streamURL": "http://listen.livestreamingservice.com/181-oldschool_128k.mp3",
       "mediaType": "audio/mp3",
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "name": "The Buzz (Alt. Rock)",
-      "description": " ",
+      "description": "Some artists had their only, indelible hits; others alternative rock bands ... Looking back, that seems like an apt-enough description of the late 90s, ...",
       "image":"http://mediapromo.sk/data/komercni/z_Radio%20Rock.jpg",
       "streamURL": "http://listen.livestreamingservice.com/181-buzz_128k.mp3",
       "mediaType":"audio/mp3",
@@ -37,7 +37,7 @@
     {
       "id": 4,
       "name": "Real Country",
-      "description": " ",
+      "description": "So yes, even though everyone's definition of country or “true” country may be different, it's important for all of us to agree that there is one.",
       "streamURL": "http://listen.livestreamingservice.com/181-realcountry_128k.mp3",
       "image":"http://www.country.dj/pictures/country_music_1.jpg",
       "mediaType": "audio/mp3",
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "Soul",
-      "description": " ",
+      "description": "London's unique and dedicated Soul music Radio Station playing quality music from Soul Classics, R&B, Smooth Jazz, Neo Soul, Ballads and Gospel with a sprinkling of Soulful House.",
       "streamURL": "http://listen.livestreamingservice.com/181-soul_128k.mp3",
       "image":"https://www.caffemoak.com/music/wp-content/uploads/2015/10/soul-music.jpg",
       "mediaType": "audio/mp3",
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "name": "Energy 98",
-      "description": " ",
+      "description": "Energy 98 is your #1 for dance music! Playing the hottest and newest dance tracks 24/7 all commercial free! You will love it!",
       "streamURL": "http://listen.livestreamingservice.com/181-energy98_128k.mp3",
       "image":"https://bestradio.fm/uploads/posts/2013-02/1361556541_radio-energy-98-online-besplatno-slushat-fm-usa.jpg",
       "mediaType": "audio/mp3",
@@ -67,7 +67,7 @@
     {
       "id": 7,
       "name": "Classical Jazz",
-      "description": " ",
+      "description": "Listen to Jazz Radio - Classic Jazz internet radio online for free on radio.net. All radio streams and radio stations at one glance. Discover online now.",
       "streamURL":"http://listen.livestreamingservice.com/181-classicaljazz_128k.mp3",
       "image":"https://www.caffemoak.com/music/wp-content/uploads/2015/10/soul-music.jpg",
       "mediaType": "audio/mp3",
@@ -77,7 +77,7 @@
     {
       "id": 8,
       "name": "Pop Music",
-      "description": " ",
+      "description": "Pop Hits - Pop Hits has the hottest chart-topping songs from the biggest artists on the planet, including Demi Lovato, Dua Lipa and Maroon 5.",
       "streamURL":"http://listen.livestreamingservice.com/181-power_128k.mp3",
       "image":"https://2r62j11x4zsy3ytak02nzvbk24y-wpengine.netdna-ssl.com/wp-content/uploads/2013/09/pop-gif-2.gif",
       "mediaType": "audio/mp3",
@@ -87,7 +87,7 @@
     {
       "id": 9,
       "name": "Uk Top 40",
-      "description": " ",
+      "description": "The UK Singles Chart is compiled by the Official Charts Company (OCC), on behalf of the British record industry, listing the top-selling singles in the United Kingdom",
       "streamURL":"http://listen.livestreamingservice.com/181-uktop40_128k.mp3",
       "image":"https://m.media-amazon.com/images/I/81IWG8fjdbL._SS500_.jpg",
       "mediaType": "audio/mp3",
@@ -117,9 +117,9 @@
     {
       "id": 12,
       "name": "70's Classics",
-      "description": " ",
+      "description": "In the late 70s and very early 80s, when the mood was mellow, and the vibe was softer, many rock artists started creating slower, thoughtfully-produced tracks. Lyrical influences from the folk singers before them, and bringing together some of the best session players of the day.",
       "streamURL":"http://listen.livestreamingservice.com/181-70s_128k.mp3",
-      "image":" ",
+      "image":"https://pbs.twimg.com/profile_images/1065353807436136448/wqCeSL9D_400x400.jpg",
       "mediaType": "audio/mp3",
       "location": " ",
       "category": "news"
@@ -137,31 +137,31 @@
     {
       "id": 14,
       "name": "The Vibe of Vegas",
-      "description": " ",
+      "description": "The Vibe of Vegas - The Vibe was created to provide dance/electronica music to listeners in Las Vegas and throughout the world through streaming online.",
       "streamURL":"http://listen.livestreamingservice.com/181-vibe_128k.mp3",
-      "image":" ",
+      "image":"https://static.radio.pl/images/broadcasts/72/86/10178/c175.png",
       "mediaType": "audio/mp3",
-      "location": " Usa",
+      "location": "Usa",
       "category": "news"
     },
     {
       "id": 15,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
+      "name": "Virgin Radio",
+      "description": "Virgin Radio is a brand owned by the Virgin Group. Virgin Radio International was established in 2001 to develop the brand and has since built one of the world's most popular music radio franchises.",
+      "streamURL":"http://astreaming.virginradio.ro:8000/virgin_mp3_64k",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/VirginRadio.png/220px-VirginRadio.png",
       "mediaType": "audio/mp3",
-      "location": " ",
-      "category": "news"
+      "location": "Romania",
+      "category": "music"
     },
     {
       "id": 16,
       "name": "Front Porch",
-      "description": " ",
+      "description": "Front Porch Radio is an award-winning talk variety show which spotlights people ... Front Porch Radio is a portal for international filmmakers, author...",
       "streamURL":"http://listen.livestreamingservice.com/181-frontporch_128k.mp3",
-      "image":" ",
+      "image":"http://happyporchradio.com/wp-content/uploads/2016/07/Happy_Porch_Radio_sm-300x300.jpg",
       "mediaType": "audio/mp3",
-      "location": "Romania",
+      "location": "Usa",
       "category": "news"
     },
     {
@@ -196,12 +196,12 @@
     },
     {
       "id": 20,
-      "name": " ",
-      "description": " ",
-      "streamURL":" ",
-      "image":" ",
+      "name": "Radio ZU",
+      "description": " Radio ZU este un post de radio din România, lansat la data de 29 septembrie 2008 de trustul media Intact. Radio ZU se axează pe formatul de Contemporary Hit Radio și are un program generalist, cu 60% ",
+      "streamURL":"http://5.254.113.34:9123/radiozu.aacp",
+      "image":"http://media.timisoreni.ro/upload/photo_b/2014-02/zu_large.jpg",
       "mediaType": "audio/mp3",
-      "location": "USA",
+      "location": "Romania",
       "category": "news"
     }
   ],

@@ -44,7 +44,8 @@
 
 @media screen and (min-width: 360px){
  .side-menu { 
-   margin-bottom: 50px;
+   margin-bottom: 10px;
+   margin-left: 40px;
 
  }
  .menu { 

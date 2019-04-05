@@ -1,54 +1,47 @@
 import React from 'react';
-// import { NavbarHomepage } from '../../shared/navbar/NavbarHomepage';
-// import { SideMenu } from '../../shared/side-menu/SideMenu';
-import { BrowserRouter, Route } from 'react-router-dom';
+import {   Route } from 'react-router-dom';
 // import { LinkContainer } from 'react-router-bootstrap';
 import { Application } from '../../views/application/Application'; 
-import   UserContext  from '../../shared/UserContext/UserContext';
+// import   UserContext  from '../../shared/UserContext/UserContext';
 import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
-// import { FacebookLoginButton } from '../../shared/FacebookLoginButton/FacebookLoginButton';
 
-import {Carousel, Jumbotron, Container} from 'react-bootstrap'; 
+import { Carousel, Card, CardGroup } from 'react-bootstrap'; 
+import { NavLink } from "reactstrap";
+import {LinkContainer } from 'react-router-bootstrap';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import slide1 from './slide1.jpg';
 import slide2 from './slide2.jpg';
-import slide3 from './slide3.jpg';
+import slide3 from './slide3.jpg'; 
+import music from './music.jpg';
+import news from './news.jpg';
+import local from './local.jpg';
+
 
 export class Homepage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        welcome: "Welcome To Siit RADIO",
-        posts: []
-    };
-}
+ 
+
+
   render() {
     return(
-    
-      <BrowserRouter>
       <div>
       
     
       <Route exact path to = "/Application" component = {Application}/>
       <Route exact path = "/social-login" component = {FacebookLoginButton}/>
-      <UserContext.Consumer>
-      { ({user}) => (
+      
+       
         <div className="Homepage-container"> 
-          <p>Welcome {user.name}</p>
- 
- 
- <FacebookLoginButton></FacebookLoginButton>
-           
           <Carousel className="Homepage-carousel">
-            <Carousel.Item>
+            <Carousel.Item >
               <img
-                className="d-block w-100"
+                className="d-block w-100 item-carousel"
                 src={slide1}
                 alt="First slide"
               />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Welcome to SiiiT RADIO</h3>
+                <p>This will be your source to music, news and all real moments at work or in spare time.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -57,10 +50,9 @@ export class Homepage extends React.Component {
                 src={slide2}
                 alt="Third slide"
               />
-
               <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3>All kinds of Music</h3>
+                <p>Electronic music, house, techno, rock, whatever you like</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -69,29 +61,63 @@ export class Homepage extends React.Component {
                 src={slide3}
                 alt="Third slide"
               />
-
               <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3>News and Shows</h3>
+                <p>Listen to the best podcast on many current subjects</p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          <Jumbotron fluid className="Homepage-container">
-            <Container>
-              <h1>Fluid jumbotron</h1>
-              <p>
-                This is a modified jumbotron that occupies the entire horizontal space of
-                its parent.
-              </p>
-            </Container>
-          </Jumbotron>
-        </div>)}
-         </UserContext.Consumer>
+        </div> 
+        <CardGroup >
+          <Card className ="card-homepage">
+            <Card.Img variant="bottom" src={music} />
+            <Card.Body>
+              <Card.Title>Music</Card.Title>
+              <Card.Text>
+                Music all around, click here and listen.
+              </Card.Text>
+              <LinkContainer exact to= "/MusicRadio">   
+              
+                  <NavLink href="/MusicRadio">Music</NavLink>
+             
+              </LinkContainer>
+            </Card.Body> 
+          </Card>
+          <Card className ="card-homepage">
+            <Card.Img variant="bottom" src={news} />
+            <Card.Body>
+              <Card.Title>News</Card.Title>
+              <Card.Text>
+                Here, you can find all the news stations.
+              </Card.Text>
+              <LinkContainer exact to= "/news">   
+           
+                  <NavLink href="/news">News</NavLink>
+             
+              </LinkContainer>
+            </Card.Body> 
+          </Card>
+          <Card className ="card-homepage">
+            <Card.Img variant="bottom" src={local} />
+            <Card.Body>
+              <Card.Title>Local Radios</Card.Title>
+              <Card.Text>
+                Listen here all the radios in your country.
+              </Card.Text>
+              <LinkContainer exact to= "/local-radios">   
+              
+                  <NavLink href="/local-radios">Local Radios</NavLink>
+           
+              </LinkContainer>
+            </Card.Body>
+          </Card>
+        </CardGroup> 
+        
            
       </div>
-      </BrowserRouter>
-         
 
     );
   }
+
+
 }

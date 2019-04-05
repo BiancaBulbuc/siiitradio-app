@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './SocialShare.css';
 import facebook from './facebook.png';
 import twitter from './twitter.png';
-import linkedin from './linkedin.png';
+// import linkedin from './linkedin.png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -45,7 +45,7 @@ export class SocialShare extends Component {
     //URL patterns for Social media sites share functionalities
     const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=`;
     const twitterUrl = `https://twitter.com/home?status=`;
-    const linkedinUrl = `https://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=`;
+    // const linkedinUrl = `https://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=`;
 
     return (
         <div className="socialShareContainer">
@@ -55,13 +55,10 @@ export class SocialShare extends Component {
             <div className={this.state.shareOpen} >
 
                 <a   href={facebookUrl}  > 
-                    <img className="social-image" src={facebook} alt="facebook-icon"></img>
-                </a>
-                <a href={linkedinUrl}  >
-                    <img className="social-image"  src={twitter} alt="twitter-icon"></img>
+                    <img className="social-image" src={facebook} target="blank" alt="facebook-icon"></img>
                 </a>
                 <a href={twitterUrl}  >
-                    <img className="social-image"  src={linkedin} alt="linkedin-icon"></img>
+                    <img className="social-image"  src={twitter} target="blank" alt="linkedin-icon"></img>
                 </a>
             </div>           
         </div>
