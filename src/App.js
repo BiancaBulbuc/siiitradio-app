@@ -4,7 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 // import {FacebookGoogleLogin} from './shared/FacebookGoogleLogin/FacebookLoginButton';
 
 import { SideMenu } from './shared/side-menu/SideMenu';
-import { Search } from './shared/search/Search';
+// import { Search } from './shared/search/Search';
 import { Application } from './views/application/Application';
 import { MainFooter } from './shared/footer/MainFooter';
 import { Homepage } from './views/Homepage/Homepage';
@@ -35,7 +35,7 @@ export default class App extends Component {
       <Container>
           <Row className="app-main-container">
             <SideMenu className="app-side-menu"></SideMenu>
-            <Search className="search-bar"></Search> 
+            
             <Col  className="page-views">
               <Route exact path = "/Application" component = {Application} />
               <Route exact path = "/homepage" component = {Homepage} />

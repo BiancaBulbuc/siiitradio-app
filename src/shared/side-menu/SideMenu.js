@@ -9,6 +9,7 @@ Nav,
 NavItem,
 NavLink
 } from "reactstrap";
+import { Search } from '../../shared/search/Search'; 
 import {LinkContainer } from 'react-router-bootstrap';
 import './Side-Menu.css';
 import logo from './logo.png'; // Tell Webpack this JS file uses this image
@@ -44,9 +45,10 @@ export class SideMenu extends React.Component {
       return (
       
        
-          <Navbar className="navigation__navbar side-menu" light expand="md" >
+          <Navbar className=" flex-sm-column navigation__navbar side-menu" light expand="md" >
             <Container >
               <div className="menu">
+              <Search className="search-bar"></Search> 
                   <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse className="menu navigation-menu" isOpen={!this.state.collapsed} navbar>
                     <Nav className="mr-auto" navbar>

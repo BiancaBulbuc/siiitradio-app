@@ -26,10 +26,7 @@
     margin-top: 40px;
     /* flex-wrap: wrap; */
 }
-
-.cards {
-    
-}
+ 
 
 .member-img{
     width: 110px;
@@ -40,7 +37,7 @@
 
 @media screen and (min-width: 680px) {
      .card-container {
-        width: 100vw;
+        width: 1200px;
         flex-direction: row;
     }
   

@@ -1,10 +1,10 @@
-import React from 'react';
+// import React from 'react';
 
-const UserContext = React.createContext({
-    user: {},
-    handleUserChange: () => {}
-});
+// const UserContext = React.createContext({
+//     user: {},
+//     handleUserChange: () => {}
+// });
 
-export default UserContext;
+// export default UserContext;
 
 
